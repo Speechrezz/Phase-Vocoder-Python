@@ -4,8 +4,8 @@ import dsp
 
 # Load test signal (little song I made)
 file_name = "weird drum groove"
-signal_path_in  = f"{file_name}.wav"
-signal_path_out = f"{file_name} (stretched).wav"
+signal_path_in  = f"demo/{file_name}.wav"
+signal_path_out = f"demo/{file_name} (stretched).wav"
 sample_rate, signal_in = audio_io.audio_read_mono(signal_path_in)
 
 # Phase Vocoder parameters
