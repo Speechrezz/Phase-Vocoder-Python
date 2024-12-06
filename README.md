@@ -13,20 +13,20 @@ Phase vocoder implementation in Python 3 for time-stretching and pitch-shifting.
 Original:
 
 <audio controls>
-  <source src="https://github.com/Speechrezz/Phase-Vocoder-Python/raw/refs/heads/main/demo/weird%20drum%20groove.wav" type="audio/wav">
+  <source src="https://raw.githubusercontent.com/Speechrezz/Phase-Vocoder-Python/raw/refs/heads/main/demo/weird%20drum%20groove.wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 Time Stretched (50% slower):
 
 <audio controls>
-  <source src="https://github.com/Speechrezz/Phase-Vocoder-Python/raw/refs/heads/main/demo/weird%20drum%20groove%20(stretched).wav" type="audio/wav">
+  <source src="https://raw.githubusercontent.com/Speechrezz/Phase-Vocoder-Python/raw/refs/heads/main/demo/weird%20drum%20groove%20(stretched).wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
 
 Pitch Shifted (pitched down 20%):
 
 <audio controls>
-  <source src="https://github.com/Speechrezz/Phase-Vocoder-Python/raw/refs/heads/main/demo/weird%20drum%20groove%20(pitched).wav" type="audio/wav">
+  <source src="https://raw.githubusercontent.com/Speechrezz/Phase-Vocoder-Python/raw/refs/heads/main/demo/weird%20drum%20groove%20(pitched).wav" type="audio/wav">
   Your browser does not support the audio element.
 </audio>
