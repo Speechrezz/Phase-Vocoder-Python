@@ -21,7 +21,7 @@ new_block_length = int(np.round(fft_size / stretch_amount))
 print(f"\nSetup: {analysis_size=}, {synthesis_size=}, {hop_ratio=}, {gain_compensation=}, {new_block_length=}")
 
 # Setup
-signal_out = np.zeros([round(signal_in.shape[0] / stretch_amount) + fft_size], dtype=np.float32)
+signal_out = np.zeros([signal_in.shape[0] + fft_size], dtype=np.float32)
 unwrap_data = 2 * np.pi * analysis_size / fft_size * np.arange(fft_size, dtype=np.float32)
 
 block_phase_prev = np.zeros_like(unwrap_data)
