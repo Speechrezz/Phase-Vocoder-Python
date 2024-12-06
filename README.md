@@ -1,6 +1,6 @@
 # Phase Vocoder
 
-Python implementation for time stretching and pitch shifting.
+Phase vocoder implementation in Python 3 for time-stretching and pitch-shifting.
 
 ## Dependencies 
 
