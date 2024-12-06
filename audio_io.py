@@ -26,7 +26,7 @@ def audio_read_mono(filename: str) -> Tuple[int, npt.NDArray[np.float32]]:
 
 def audio_write(filename: str, sample_rate: int, signal):
     # Ensure gain never goes above 1
-    signal_max = np.max(np.abs(signal)) #+ 1e-5
+    signal_max = np.max(np.abs(signal)) + 1e-5
     if signal_max > 1:
         signal = signal / signal_max
 
